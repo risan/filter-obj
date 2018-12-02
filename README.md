@@ -1,4 +1,4 @@
-# NPM Boilerplate
+# Filter Object
 
 [![Build Status](https://flat.badgen.net/travis/risan/filter-obj)](https://travis-ci.org/risan/filter-obj)
 [![Test Coverage](https://flat.badgen.net/codeclimate/coverage/risan/filter-obj)](https://codeclimate.com/github/risan/filter-obj)
