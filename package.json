@@ -1,0 +1,54 @@
+{
+  "name": "filter-obj",
+  "version": "1.0.0",
+  "description": "Filter object by its property names or values or both",
+  "keywords": [
+    "filter",
+    "object"
+  ],
+  "homepage": "https://github.com/risan/filter-obj#readme",
+  "bugs": {
+    "url": "https://github.com/risan/filter-obj/issues"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Risan Bagja Pradana",
+    "email": "risanbagja@gmail.com",
+    "url": "https://bagja.net"
+  },
+  "main": "dist/filter-obj.cjs.js",
+  "browser": "dist/filter-obj.umd.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/risan/filter-obj.git"
+  },
+  "scripts": {
+    "build": "NODE_ENV=build rollup -c",
+    "lint": "eslint ./",
+    "lint-fix": "eslint ./ --fix",
+    "prepublishOnly": "npm run lint && npm run test && npm run build",
+    "test": "NODE_ENV=test jest"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.1.6",
+    "@babel/preset-env": "^7.1.6",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-jest": "^23.6.0",
+    "eslint": "^5.9.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-config-prettier": "^3.3.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-prettier": "^3.0.0",
+    "jest": "^23.6.0",
+    "prettier": "^1.15.2",
+    "rollup": "^0.67.3",
+    "rollup-plugin-babel": "^4.0.3",
+    "rollup-plugin-commonjs": "^9.2.0",
+    "rollup-plugin-node-resolve": "^3.4.0",
+    "rollup-plugin-terser": "^3.0.0"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  }
+}
