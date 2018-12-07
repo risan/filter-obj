@@ -1,31 +1,26 @@
 # Filter Object
 
-[![Build Status](https://flat.badgen.net/travis/risan/filter-obj)](https://travis-ci.org/risan/filter-obj)
-[![Test Coverage](https://flat.badgen.net/codeclimate/coverage/risan/filter-obj)](https://codeclimate.com/github/risan/filter-obj)
-[![Maintainability](https://flat.badgen.net/codeclimate/maintainability/risan/filter-obj)](https://codeclimate.com/github/risan/filter-obj)
-[![Latest Stable Version](https://flat.badgen.net/npm/v/@risan/filter-obj)](https://www.npmjs.com/package/@risan/filter-obj)
-[![Node Version](https://flat.badgen.net/npm/node/@risan/filter-obj)](https://www.npmjs.com/package/@risan/filter-obj)
-[![Code Style: Prettier](https://flat.badgen.net/badge/code%20style/prettier/ff69b4)](https://github.com/prettier/prettier)
-[![License](https://flat.badgen.net/npm/license/@risan/filter-obj)](https://github.com/risan/filter-obj/blob/master/LICENSE)
+[![Build Status](https://badgen.net/travis/risan/filter-obj)](https://travis-ci.org/risan/filter-obj)
+[![Test Covarage](https://badgen.net/codecov/c/github/risan/filter-obj)](https://codecov.io/gh/risan/filter-obj)
+[![Greenkeeper](https://badges.greenkeeper.io/risan/filter-obj.svg)](https://greenkeeper.io)
+[![Latest Version](https://badgen.net/npm/v/@risan/filter-obj)](https://www.npmjs.com/package/@risan/filter-obj)
 
 Filter object by its property names or values or both.
 
-## Install
+## Installation
 
 ```bash
 $ npm install @risan/filter-obj
-
-# Or if you use Yarn
-$ yarn add @risan/filter-obj
 ```
 
-Use this library directly on the browser:
+### CDN
+
+The library is available over a CDN:
 
 ```html
-<!-- For development -->
 <script src="https://unpkg.com/@risan/filter-obj@latest/dist/filter-obj.umd.js"></script>
 
-<!-- Minified version for production -->
+<!-- Or the minified version -->
 <script src="https://unpkg.com/@risan/filter-obj@latest/dist/filter-obj.umd.min.js"></script>
 ```
 
@@ -147,4 +142,4 @@ It returns a filtered `Object`.
 
 ## License
 
-MIT © [Risan Bagja Pradana](https://bagja.net)
+[MIT](https://github.com/risan/filter-obj/blob/master/LICENSE) © [Risan Bagja Pradana](https://bagja.net)

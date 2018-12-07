@@ -1,7 +1,7 @@
 {
   "name": "@risan/filter-obj",
-  "version": "1.0.1",
-  "description": "Filter object by its property names or values or both",
+  "version": "1.0.2",
+  "description": "Filter object by its property names or values or both.",
   "keywords": [
     "filter",
     "object"
@@ -29,7 +29,6 @@
     "prepublishOnly": "npm run lint && npm run test && npm run build",
     "test": "NODE_ENV=test jest"
   },
-  "dependencies": {},
   "devDependencies": {
     "@babel/core": "^7.1.6",
     "@babel/preset-env": "^7.1.6",
