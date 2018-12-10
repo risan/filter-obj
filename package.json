@@ -1,6 +1,6 @@
 {
   "name": "@risan/filter-obj",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Filter object by its property names or values or both.",
   "keywords": [
     "filter",
