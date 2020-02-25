@@ -2,7 +2,6 @@
 
 [![Build Status](https://badgen.net/travis/risan/filter-obj)](https://travis-ci.org/risan/filter-obj)
 [![Test Covarage](https://badgen.net/codecov/c/github/risan/filter-obj)](https://codecov.io/gh/risan/filter-obj)
-[![Greenkeeper](https://badges.greenkeeper.io/risan/filter-obj.svg)](https://greenkeeper.io)
 [![Latest Version](https://badgen.net/npm/v/@risan/filter-obj)](https://www.npmjs.com/package/@risan/filter-obj)
 
 Filter object by its property names or values or both.
